@@ -1,0 +1,61 @@
+{
+  "id": "E157",
+  "value": 0.002133889529828949,
+  "method": "Independent Python Decimal at 1000 decimal digits; eta I t M/(zF), F=N_A e=96485.3321233100184 C/mol exact SI product.",
+  "cases": [
+    {
+      "name": "Faraday deposition",
+      "values": {},
+      "expected": 0.002133889529828949
+    },
+    {
+      "name": "unit efficiency",
+      "values": {
+        "efficiency": 1
+      },
+      "expected": 0.00237098836647661
+    },
+    {
+      "name": "three electron reaction",
+      "values": {
+        "electrons": 3
+      },
+      "expected": 0.001422593019885966
+    },
+    {
+      "name": "zero current",
+      "values": {
+        "current": 0
+      },
+      "expected": 0.0
+    },
+    {
+      "name": "zero duration",
+      "values": {
+        "duration": 0
+      },
+      "expected": 0.0
+    },
+    {
+      "name": "zero efficiency",
+      "values": {
+        "efficiency": 0
+      },
+      "expected": 0.0
+    },
+    {
+      "name": "excess efficiency",
+      "values": {
+        "efficiency": 1.01
+      },
+      "throws": true
+    },
+    {
+      "name": "fractional electron count",
+      "values": {
+        "electrons": 2.5
+      },
+      "throws": true
+    }
+  ]
+}
